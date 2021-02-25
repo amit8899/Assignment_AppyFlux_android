@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New User"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edit_user"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_light"
+        android:textSize="16sp"
+        android:hint="Enter Username"
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edit_sub"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_light"
+        android:textSize="16sp"
+        android:hint="Enter designation"
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_add_done"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"/>
+</LinearLayout>
